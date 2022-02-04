@@ -1,0 +1,12 @@
+C:\Application\ErfanShop\01_Framework\bin\Debug\net5.0\01_Framework.deps.json
+C:\Application\ErfanShop\01_Framework\bin\Debug\net5.0\01_Framework.dll
+C:\Application\ErfanShop\01_Framework\bin\Debug\net5.0\ref\01_Framework.dll
+C:\Application\ErfanShop\01_Framework\bin\Debug\net5.0\01_Framework.pdb
+C:\Application\ErfanShop\01_Framework\obj\Debug\net5.0\01_Framework.csproj.AssemblyReference.cache
+C:\Application\ErfanShop\01_Framework\obj\Debug\net5.0\01_Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Application\ErfanShop\01_Framework\obj\Debug\net5.0\01_Framework.AssemblyInfoInputs.cache
+C:\Application\ErfanShop\01_Framework\obj\Debug\net5.0\01_Framework.AssemblyInfo.cs
+C:\Application\ErfanShop\01_Framework\obj\Debug\net5.0\01_Framework.csproj.CoreCompileInputs.cache
+C:\Application\ErfanShop\01_Framework\obj\Debug\net5.0\01_Framework.dll
+C:\Application\ErfanShop\01_Framework\obj\Debug\net5.0\ref\01_Framework.dll
+C:\Application\ErfanShop\01_Framework\obj\Debug\net5.0\01_Framework.pdb

@@ -1,0 +1,12 @@
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.deps.json
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\bin\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.dll
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ref\ShopManagement.Application.Contracts.dll
+C:\Application\ErfanShop\ShopManagement.Application.Contracts\obj\Debug\net5.0\ShopManagement.Application.Contracts.pdb

@@ -1,0 +1,15 @@
+C:\Application\ErfanShop\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.deps.json
+C:\Application\ErfanShop\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.dll
+C:\Application\ErfanShop\ShopManagement.Domain\bin\Debug\net5.0\ref\ShopManagement.Domain.dll
+C:\Application\ErfanShop\ShopManagement.Domain\bin\Debug\net5.0\ShopManagement.Domain.pdb
+C:\Application\ErfanShop\ShopManagement.Domain\bin\Debug\net5.0\01_Framework.dll
+C:\Application\ErfanShop\ShopManagement.Domain\bin\Debug\net5.0\01_Framework.pdb
+C:\Application\ErfanShop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.AssemblyReference.cache
+C:\Application\ErfanShop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Application\ErfanShop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+C:\Application\ErfanShop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.AssemblyInfo.cs
+C:\Application\ErfanShop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Application\ErfanShop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.csproj.CopyComplete
+C:\Application\ErfanShop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.dll
+C:\Application\ErfanShop\ShopManagement.Domain\obj\Debug\net5.0\ref\ShopManagement.Domain.dll
+C:\Application\ErfanShop\ShopManagement.Domain\obj\Debug\net5.0\ShopManagement.Domain.pdb
