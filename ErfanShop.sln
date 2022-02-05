@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Infrastructure", "SM.Infrastructure", "{E36975FA-9991-4AFC-B65E-15358E33224A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Infrastructure.EfCore", "ShopManagement.Infrastructure.EfCore\ShopManagement.Infrastructure.EfCore.csproj", "{CDD96EEB-AB3B-42A4-AD07-6E89363A1142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Infrastructure.EfCore", "ShopManagement.Infrastructure.EfCore\ShopManagement.Infrastructure.EfCore.csproj", "{CDD96EEB-AB3B-42A4-AD07-6E89363A1142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Configuration", "ShopManagement.Configuration\ShopManagement.Configuration.csproj", "{68F1C6B4-123B-481D-B9D5-494AA4C960EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Configuration", "ShopManagement.Configuration\ShopManagement.Configuration.csproj", "{68F1C6B4-123B-481D-B9D5-494AA4C960EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{AD6396A2-68D1-4DE2-9146-54950BE54DE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{68F1C6B4-123B-481D-B9D5-494AA4C960EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68F1C6B4-123B-481D-B9D5-494AA4C960EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68F1C6B4-123B-481D-B9D5-494AA4C960EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6396A2-68D1-4DE2-9146-54950BE54DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6396A2-68D1-4DE2-9146-54950BE54DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6396A2-68D1-4DE2-9146-54950BE54DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6396A2-68D1-4DE2-9146-54950BE54DE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
