@@ -21,6 +21,7 @@ namespace _01_Framework.Infrastructure
         public void Create(T entity)
         {
             _context.Add<T>(entity);
+            Save();
         }
 
         public T Get(TKey id)

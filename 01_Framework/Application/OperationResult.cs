@@ -2,22 +2,22 @@
 {
     public class OperationResult
     {
-        public bool IsSuccess { get; set; }
+        public bool IsSuccedded { get; set; }
         public string Message { get; set; }
 
         public OperationResult()
         {
-            IsSuccess = false;
+            IsSuccedded = false;
         }
         public OperationResult Success(string message)
         {
-            IsSuccess = true;
+            IsSuccedded = true;
             Message = message;
             return this;
         }
         public OperationResult Failed(string message)
         {
-            IsSuccess = false;
+            IsSuccedded = false;
             Message = message;
             return this;
         }

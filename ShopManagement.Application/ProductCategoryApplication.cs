@@ -52,7 +52,7 @@ namespace ShopManagement.Application
             return operation.Success("عملیات با موفقیت انجام شد");
         }
 
-        public EditProductCategory Get(long id)
+        public EditProductCategory GetDetails(long id)
         {
             return _productCategoryRepository.GetDetails(id);
         }
