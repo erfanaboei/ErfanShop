@@ -19,18 +19,23 @@ namespace ShopManagement.Application
             _productCategoryRepository = productCategoryRepository;
         }
 
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _productCategoryRepository.GetProductCategories();
+        }
+
         public OperationResult Create(CreateProductCategory command)
         {
             var operation = new OperationResult();
             if (_productCategoryRepository.Exists(x => x.Name == command.Name))
-                return operation.Failed("مقدار وارد شده تکراری است.");
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
             var productCategory = new ProductCategory(command.Name, command.Description, command.Picture, command.PictureAlt, command.PictureTitle, 
                 command.Keywords, command.MetaDescription, slug);
 
             _productCategoryRepository.Create(productCategory);
-            return operation.Success("عملیات با موفقیت انجام شد");
+            return operation.Success();
 
         }
 
@@ -39,17 +44,17 @@ namespace ShopManagement.Application
             var operation = new OperationResult();
             var productCategory = _productCategoryRepository.Get(command.Id);
             if (productCategory == null)
-                return operation.Failed("فیلدی با مشخصات وارد شده یافت نشد");
+                return operation.Failed(ApplicationMessages.RecordNotFound);
 
             if (_productCategoryRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
-                return operation.Failed("مقدار وارد شده تکراری است.");
+                return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
 
             productCategory.Edit(command.Name, command.Description, command.Picture,
                 command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
             _productCategoryRepository.Save();
-            return operation.Success("عملیات با موفقیت انجام شد");
+            return operation.Success();
         }
 
         public EditProductCategory GetDetails(long id)

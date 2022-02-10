@@ -1521,6 +1521,19 @@
           "bin/placeholder/01_Framework.dll": {}
         }
       },
+      "02_ErfanShopQuery/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "ShopManagement.Infrastructure.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/02_ErfanShopQuery.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/02_ErfanShopQuery.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1553,6 +1566,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "02_ErfanShopQuery": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "ShopManagement.Application": "1.0.0",
           "ShopManagement.Domain": "1.0.0",
@@ -5842,6 +5856,11 @@
       "type": "project",
       "path": "../01_Framework/01_Framework.csproj",
       "msbuildProject": "../01_Framework/01_Framework.csproj"
+    },
+    "02_ErfanShopQuery/1.0.0": {
+      "type": "project",
+      "path": "../02_ErfanShopQuery/02_ErfanShopQuery.csproj",
+      "msbuildProject": "../02_ErfanShopQuery/02_ErfanShopQuery.csproj"
     },
     "ShopManagement.Application/1.0.0": {
       "type": "project",
