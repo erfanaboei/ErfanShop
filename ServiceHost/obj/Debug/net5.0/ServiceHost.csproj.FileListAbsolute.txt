@@ -103,3 +103,17 @@ C:\Application\ErfanShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration
 C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\02_ErfanShopQuery.dll
 C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\02_ErfanShopQuery.pdb
 C:\Application\ErfanShop\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Slide\Default.cshtml.g.cs
+C:\Application\ErfanShop\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\ProductCategory\Default.cshtml.g.cs
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.dll
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Configuration.dll
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.dll
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.dll
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Configuration.pdb
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.pdb
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+C:\Application\ErfanShop\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EfCore.pdb
+C:\Application\ErfanShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\CustomerDiscount\Index.cshtml.g.cs
+C:\Application\ErfanShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\CustomerDiscount\Define.cshtml.g.cs
+C:\Application\ErfanShop\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\CustomerDiscount\Edit.cshtml.g.cs

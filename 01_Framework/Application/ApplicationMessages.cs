@@ -10,5 +10,6 @@ namespace _01_Framework.Application
     {
         public const string DuplicatedRecord = "این مقدار قبلا ثبت شده است.";
         public const string RecordNotFound = "مقدار مورد نظر یافت نشد.";
+        public const string DuplicatedDiscount = "این تخفیف قبلا برای این محصول ثبت شده است.";
     }
 }

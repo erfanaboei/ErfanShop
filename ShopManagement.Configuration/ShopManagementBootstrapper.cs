@@ -1,4 +1,5 @@
 ﻿using System;
+using _02_ErfanShopQuery.Contracts.ProductCategory;
 using _02_ErfanShopQuery.Contracts.Slide;
 using _02_ErfanShopQuery.Query;
 using Microsoft.EntityFrameworkCore;
@@ -17,7 +18,7 @@ using ShopManagement.Infrastructure.EfCore.Repository;
 
 namespace ShopManagement.Configuration
 {
-    public class ShopManagementBoostrapper
+    public class ShopManagementBootstrapper
     {
         public static void Configure(IServiceCollection services , string connectionString)
         {
@@ -34,6 +35,7 @@ namespace ShopManagement.Configuration
             services.AddTransient<ISlideRepository , SlideRepository>();
 
             services.AddTransient<ISlideQuery , SlideQuery>();
+            services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }

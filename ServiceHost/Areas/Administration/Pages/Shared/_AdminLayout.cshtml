@@ -13,6 +13,7 @@
     <!-- Base Css Files -->
     <link href="~/AdminTheme/assets/css/bootstrap.min.css" rel="stylesheet" />
 
+    <link href="~/AdminTheme/assets/css/persian-datepicker.css" rel="stylesheet" />
     <!-- Font Icons -->
     <link href="~/AdminTheme/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link href="~/AdminTheme/assets/ionicon/css/ionicons.min.css" rel="stylesheet" />
@@ -171,7 +172,7 @@
                     </div>
                 </div>
                 <!--- Divider -->
-                <partial name="_Menu"/>
+                <partial name="_Menu" />
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -357,13 +358,18 @@
     <!-- CUSTOM JS -->
     <script src="~/AdminTheme/assets/js/jquery.app.js"></script>
 
+    <script src="~/AdminTheme/assets/js/persian-date.js"></script>
+    <script src="~/AdminTheme/assets/js/persian-datepicker.js"></script>
+    <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
+    <script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
+
     <!-- Dashboard -->
     <script src="~/AdminTheme/assets/js/jquery.dashboard.js"></script>
 
     <!-- Chat -->
     <script src="~/AdminTheme/assets/js/jquery.chat.js"></script>
 
-    
+
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 
@@ -372,17 +378,12 @@
 
     <script src="~/AdminTheme/assets/js/site.js"></script>
     @RenderSection("Scripts", false);
-    <!-- <script type="text/javascript"> -->
-    <!-- /* ============================================== -->
-    <!-- Counter Up -->
-    <!-- =============================================== */ -->
-    <!-- jQuery(document).ready(function($) { -->
-    <!-- $('.counter').counterUp({ -->
-    <!-- delay: 100, -->
-    <!-- time: 1200 -->
-    <!-- }); -->
-    <!-- }); -->
-    <!-- </script> -->
 
+    <script>
+        $('.persianDateInput').persianDatepicker({
+            format: 'YYYY/MM/DD',
+            autoClose: true
+        });
+    </script>
 </body>
 </html>
